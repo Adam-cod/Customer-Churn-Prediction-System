@@ -7,17 +7,17 @@
 
 ##Tech Stack
 
--Python
--Pandas
--NumPy
--Scikit-learn
--Logistic Regression
--Random Forest
--XGBoost
--FastAPI
--Streamlit
--Joblib
--Git & GitHub
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Logistic Regression
+- Random Forest
+- XGBoost
+- FastAPI
+- Streamlit
+- Joblib
+- Git & GitHub
 
 
 ##Workflow
@@ -33,41 +33,41 @@
 
 
 ##Models Used
--Logistic Regression (baseline model for interpretability)
--Random Forest
--XGBoost
+- Logistic Regression (baseline model for interpretability)
+- Random Forest
+- XGBoost
 Models were evaluated using Accuracy, Precision, Recall, ROC-AUC, and Confusion Matrix.
 
 
 ##Risk Scoring Logic
 Predicted churn probabilities are mapped into risk buckets:
--High Risk: Probability ≥ 0.60
--Medium Risk: Probability between 0.40 and 0.59
--Low Risk: Probability < 0.40
+- High Risk: Probability ≥ 0.60
+- Medium Risk: Probability between 0.40 and 0.59
+- Low Risk: Probability < 0.40
 This makes predictions easy to understand for business users.
 
-##System Architecture
-Streamlit Dashboard
+
+ Streamlit Dashboard
         ↓
-FastAPI REST API
+ FastAPI REST API
         ↓
-ML Pipeline (Preprocessing + Model)
+ ML Pipeline (Preprocessing + Model)
 
 
 ##Output
--Churn probability score
--Risk classification (Low / Medium / High)
--Feature importance visualization
--Interactive dashboard for predictions
+- Churn probability score
+- Risk classification (Low / Medium / High)
+- Feature importance visualization
+- Interactive dashboard for predictions
 
 
 ##Key Features
--End-to-end ML pipeline
--Handles missing customer information
--Schema-consistent inference
--Real-time predictions via API
--Business-friendly risk segmentation
--Interactive Streamlit dashboard
+- End-to-end ML pipeline
+- Handles missing customer information
+- Schema-consistent inference
+- Real-time predictions via API
+- Business-friendly risk segmentation
+- Interactive Streamlit dashboard
 
 This project focuses on production-ready machine learning, not just model training.
 
