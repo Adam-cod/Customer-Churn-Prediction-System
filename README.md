@@ -48,9 +48,9 @@ This makes predictions easy to understand for business users.
 
 
  Streamlit Dashboard
-        ↓
+        →
  FastAPI REST API
-        ↓
+        →
  ML Pipeline (Preprocessing + Model)
 
 
@@ -71,8 +71,15 @@ This makes predictions easy to understand for business users.
 
 This project focuses on production-ready machine learning, not just model training.
 
+###How to Run Locally
+
+##Start FastAPI
+uvicorn app:app --reload
+
+##Start Streamlit Dashboard
+streamlit run streamlit_app.py
 
 Author
 
 Adam
-Machine Learning & AI Engineer / Data Scientist
+ Machine Learning & AI Engineer / Data Scientist
