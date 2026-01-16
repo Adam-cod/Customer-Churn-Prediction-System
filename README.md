@@ -73,12 +73,17 @@ This project focuses on production-ready machine learning, not just model traini
 
 ###How to Run Locally
 
+### Install dependencies
+```bash
+pip install -r requirements.txt
+
 ##Start FastAPI
 uvicorn app:app --reload
 
 ##Start Streamlit Dashboard
 streamlit run streamlit_app.py
 
+```
 Author
 
 Adam
